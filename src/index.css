@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+
+.active{
+    color: #028BBF;
+    width: fit-content;
+    font-weight: bold;
+    animation: upDown 2s ease-in-out infinite;
+}
+
+@keyframes upDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0); 
+  }
+}
+
+.mainText{
+  color: #02437B;
+}
+.backColor{
+  background-color: #D8E9F0 ;
+}
