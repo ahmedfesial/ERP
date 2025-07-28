@@ -39,7 +39,7 @@ export default function Warehouse() {
             </div>
 
             {/* DeskTop */}
-            <div className="hidden md:block shadow-md  sm:rounded-xl mt-8 bg-white w-[95%] mx-auto h-fit hover:shadow-2xl">
+            <div className="hidden md:block shadow-md  sm:rounded-xl mt-8 bg-white w-[95%] mx-auto h-fit hover:shadow-2xl duration-300 transition-all">
               <table className="w-full text-center text-sm  mainText">
                 <thead className="text-xs border-b-1 uppercase">
                   <tr>

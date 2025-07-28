@@ -2,10 +2,10 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
 import Layout from './Components/Layout/Layout'
 import Finance from './Components/Finance/Finance'
-import Sales from './Components/Sales/Sales'
 import HumanResources from './Components/HumanResources/HumanResources'
 import Warehouse from './Components/Warehouse/Warehouse'
 import Dashboard from './Components/Dashboard/Dashboard'
+import Sales from './Components/Sales/Sales'
 
 function App() {
 

@@ -19,8 +19,6 @@ const data = [
   { date: 30, value: 65000 },
 ];
 
-
-
 export default function Dashboard() {
 
   return <>
@@ -70,7 +68,7 @@ export default function Dashboard() {
 
 
         {/* Tabel */}
-       <div className="shadow-md w-[440px] h-[350px] rounded-xl mt-8 bg-white md:w-[565px] md:h-[350px] hover:shadow-2xl">
+       <div className="shadow-md w-[440px] h-[350px] rounded-xl mt-8 bg-white md:w-[565px] md:h-[350px] hover:shadow-2xl duration-300 transition-all">
         <table className=" md:w-full text-center text-sm  mainText">
           <thead className="text-xs border-b-1 uppercase">
             <tr className='px-4 py-2 md:px-6 md:py-4'>
@@ -179,7 +177,7 @@ export default function Dashboard() {
 
 
         {/* Charts */}
-      <div className='shadow-md p-2 md:p-4 w-[440px] h-[350px]  rounded-xl mt-8 bg-white md:w-[565px] md:h-[350px] hover:shadow-2xl'>
+      <div className='shadow-md p-2 md:p-4 w-[440px] h-[350px]  rounded-xl mt-8 bg-white md:w-[565px] md:h-[350px] hover:shadow-2xl duration-300 transition-all'>
 
       <div className="flex justify-end mb-2 text-sm font-semibold text-blue-600 gap-4">
           <span className="text-gray-400 cursor-pointer">1W</span>
